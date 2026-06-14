@@ -11,9 +11,9 @@
 #include <dt-bindings/zmk/ext_power.h>
 
 // Control only first 6 LDEs fro underglow without per-key RGB (full RGB uses 27)
-&led_strip { */
-     chain-length = <21>; */
-}; */
+&led_strip { 
+     chain-length = <21>; 
+};
 
 // nice_view connected with control pin 8 together with LEDs
 &nice_view_spi {
