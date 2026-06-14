@@ -12,7 +12,7 @@
 
 // Control only first 6 LDEs fro underglow without per-key RGB (full RGB uses 27)
 &led_strip { */
-     chain-length = <6>; */
+     chain-length = <21>; */
 }; */
 
 // nice_view connected with control pin 8 together with LEDs
